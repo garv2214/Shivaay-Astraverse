@@ -1,0 +1,38 @@
+# requirements.txt
+# Add all Python dependencies here
+# Example: numpy==1.26.0
+# Example: opencv-python==4.9.0.80
+# Core Python libraries for game dev support and tools
+
+numpy==1.26.0              # For numerical computations (physics, stats, data processing)
+opencv-python==4.9.0.80    # For image/video processing (textures, animations, shaders testing)
+Pillow==10.3.0             # For image manipulation (sprites, assets, textures)
+matplotlib==3.9.1          # For visualizations & debugging gameplay data
+pandas==2.2.2              # For data handling (logs, metrics, balancing game stats)
+
+# Game dev / simulation tools
+pygame==2.5.2              # For prototyping game mechanics quickly in Python
+
+# AI / ML integration (optional but future-proof)
+torch==2.3.0               # For character AI, procedural generation
+transformers==4.41.0       # For text/dialogue generation, story scripting
+
+# Utility
+tqdm==4.66.2               # For progress bars in scripts
+# Core Python libraries for game dev support and tools
+
+numpy==1.26.0
+opencv-python==4.9.0.80
+Pillow==10.3.0
+matplotlib==3.9.1
+pandas==2.2.2
+
+# Game dev / prototyping
+pygame==2.5.2
+
+# AI / ML (optional future-proofing)
+torch==2.3.0
+transformers==4.41.0
+
+# Utility
+tqdm==4.66.2
